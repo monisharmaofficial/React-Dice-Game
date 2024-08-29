@@ -4,7 +4,9 @@ import NumberSelector from "./NumberSelector";
 import TotalScore from "./TotalScore";
 import RoleDice from "./RoleDice";
 import { useState } from "react";
-import { Button, OutlineButton } from "../styled/Button";
+// import { Button, OutlineButton } from "../styled/Button"; // isi line ki wajah se problem ho rhi okk esko chhod do m khud krkr dekhti hu ab kake dekho
+import { Button } from "../styled/Button";
+import { OutlineButton } from "../styled/Button";
 import Rules from "./Rules";
 
 const GamePlay = () => {
